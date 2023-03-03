@@ -1,0 +1,24 @@
+Instruction:
+  1. Run loader.exe
+  2. If there are no config, it will prompt you to choose the game path
+  3. Browse and choose either 'YuanShen.exe' or 'GenshinImpact.exe'
+  4. Wait for game to start, then press 'F4' when you see the login screen
+  5. After it finished loading in game, press 'Insert' to toggle the menu
+  6. There will be more instructions in the menu
+
+Note:
+  This tool only loads when the game is launched from loader.exe
+
+Common Issues:
+  1. A dialog showing "The program can't start because xxxx.dll is missing" 
+       -> you need to install/reinstall vcredist (https://aka.ms/vs/17/release/vc_redist.x64.exe)
+  2. A dialog showing "Error at hooking API ..."
+       -> you need to install/reinstall vcredist
+  3. loader.exe prints "xxx failed, status: 0xc0000005"
+       -> anti virus is blocking it
+  4. loader.exe prints "xxx failed, status: 0xc000010a"
+       -> retry a couple times, if it still doesn't work, try verifying game files
+  5. Crashed when loading after game update
+       -> wait for me to update
+  6. What to do if anti virus blocked the file?
+       -> add it to your AVs whitelist (ask google)
