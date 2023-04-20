@@ -1,0 +1,26 @@
+运行步骤:
+  1. 运行loader.exe
+  2. 如果没有配置文件的话会提示选择游戏
+  3. 选择YuanShen.exe或者GenshinImpact.exe（别选到官方的launcher.exe）
+  4. 然后等待游戏启动，看到登录界面后按F4
+  5. 加载完成后游戏内按insert开启/关闭菜单
+  6. 菜单里有工具的指南
+
+注:
+  只有从loader.exe启动才会加载插件
+
+常见问题:
+  1. 出现 "缺失xxx.dll，无法启动" 的字样 
+       -> 安装/重装vc运行库（https://aka.ms/vs/17/release/vc_redist.x64.exe）
+  2. 出现 "Error at hooking API..." 的字样 
+       -> 安装/重装vc运行库
+  3. loader.exe加载时出现 "xxx failed, status: 0xc0000005" 
+       -> 杀软挡了
+  4. loader.exe加载时出现 "xxx failed, status: 0xc000010a" 
+       -> 重试、还是不行的话验证游戏文件
+  5. loader.exe显示"success"但是游戏里没反应 
+       -> 杀软挡了
+  6. 游戏版本更新了，加载时崩溃 
+       -> 等我更新，别催
+  7. 杀软挡了怎么办
+       -> 拉白名单（自己百度）
